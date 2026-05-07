@@ -56,12 +56,27 @@ Each skill helps you **challenge your code before pushing it**.
 
 ## 📂 Repository structure
 
-/skills
-  /security
-  /performance
-  /architecture
-  /reliability
-  /observability
+skills/
+├── security/
+│   ├── trust-boundary.md
+│   ├── auth-audit.md
+│   ├── attack-simulation.md
+│
+├── performance/
+│   ├── load-reasoning.md
+│   ├── query-analysis.md
+│
+├── architecture/
+│   ├── coupling-detector.md
+│   ├── scalability-check.md
+│
+├── reliability/
+│   ├── edge-case-hunter.md
+│   ├── failure-scenarios.md
+│
+├── observability/
+│   ├── logging-audit.md
+│   ├── debug-readiness.md
 
 Each file contains:
 
