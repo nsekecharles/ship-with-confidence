@@ -1,16 +1,52 @@
-# Trust Boundary
+# 🔐 Trust Boundary Detector
 
-Identify and document trust boundaries in the system.
+## 🎯 Objective
 
-## What to check
-- Where untrusted input enters (HTTP, queues, files, CLI, env vars)
-- Boundary crossings (service-to-service, tenant-to-tenant, user-to-admin)
-- Data classification changes (PII, secrets, tokens)
+Identify where the system trusts data it should not trust and enforce strict validation at every boundary.
 
-## Prompts
-- "List all trust boundaries in this change and how input is validated at each boundary."
-- "What assumptions are we making about upstream data and are they enforced?"
+---
 
-## Outputs
-- Trust boundary diagram (textual is fine)
-- List of boundary checks and owners
+## 🧠 Prompt to run
+
+Analyze this system and identify all trust boundaries:
+
+- Frontend → Backend
+- Mobile → Backend
+- Backend → Database
+- Backend → External services
+
+For each boundary:
+
+1. Identify what data is being trusted
+2. Explain why this is risky
+3. Propose validation and sanitization strategies
+
+---
+
+## ⚠️ What to look for
+
+### Frontend / Mobile
+- Trusting client-provided fields (role, userId, flags)
+- Hidden fields used for business logic
+- No validation before sending data
+
+### Backend
+- No validation of incoming requests
+- Direct use of request data in business logic
+- No schema validation
+
+---
+
+## ✅ Expected outcome
+
+- Clear identification of trust violations  
+- Strong validation strategy  
+- Reduced attack surface  
+
+---
+
+## 💡 Why it matters
+
+The client is always untrusted.
+
+👉 Always.
