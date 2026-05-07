@@ -124,11 +124,15 @@ skills/observability/
 
 ## 🛠️ How to use
 
-1. Generate or write your code (with or without AI)
-2. Take your diff / modified files
-3. Run the relevant skills (copy/paste prompts)
-4. Review the output critically
-5. Fix issues before pushing
+These skills are designed to be used with **AI coding agents** (recommended), not just basic chat interfaces.
+
+👉 Best used with tools like:
+
+- Claude (with large context / files)
+
+- Cursor / Copilot Chat
+
+- Any agent capable of reasoning over codebases or diffs
 
 ---
 
@@ -173,6 +177,14 @@ Blind usage is.
 To:
 
 * “I understand what I’m about to ship”
+
+---
+
+### Mindset
+
+You are not asking the AI to write code.
+
+👉 You are asking it to **challenge your system**.
 
 ---
 
