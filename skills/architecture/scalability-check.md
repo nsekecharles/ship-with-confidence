@@ -1,12 +1,12 @@
-# 📈 Scalability Check
+# Scalability Check
 
-## 🎯 Objective
+## Objective
 
 Evaluate whether the current architecture can handle growth in users, data, and features.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this system and evaluate its scalability.
 
@@ -30,7 +30,7 @@ Then:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Synchronous blocking operations  
 - No caching strategy  
@@ -40,7 +40,7 @@ Then:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear bottleneck identification  
 - Understanding of system limits  
@@ -48,14 +48,14 @@ Then:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Most systems don’t fail because they don’t work.
 
-👉 They fail because they **don’t scale**.
+They fail because they **don’t scale**.
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 If traffic suddenly increases x10 overnight, what part of the system breaks first and why?

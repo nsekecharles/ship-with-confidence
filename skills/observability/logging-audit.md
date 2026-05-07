@@ -1,12 +1,12 @@
-# 📜 Logging Audit
+# Logging Audit
 
-## 🎯 Objective
+## Objective
 
 Ensure that the system produces meaningful, structured, and actionable logs to understand behavior in production.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this code and evaluate its logging strategy.
 
@@ -26,7 +26,7 @@ For each issue:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - No logs on critical actions (auth, payments, data updates)  
 - Logs without context (no user, no request, no correlation id)  
@@ -36,7 +36,7 @@ For each issue:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear and structured logging strategy  
 - Better traceability of user actions  
@@ -45,15 +45,15 @@ For each issue:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 When something breaks in production:
 
-👉 Logs are your first (and sometimes only) source of truth
+Logs are your first (and sometimes only) source of truth
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 If a user reports a bug, can I trace their journey through logs alone?
 

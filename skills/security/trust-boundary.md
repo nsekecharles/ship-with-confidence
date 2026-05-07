@@ -1,12 +1,12 @@
-# 🔐 Trust Boundary Detector
+# Trust Boundary Detector
 
-## 🎯 Objective
+## Objective
 
 Identify where the system trusts data it should not trust and enforce strict validation at every boundary.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this system and identify all trust boundaries:
 
@@ -23,7 +23,7 @@ For each boundary:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Frontend / Mobile
 - Trusting client-provided fields (role, userId, flags)
@@ -37,7 +37,7 @@ For each boundary:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear identification of trust violations  
 - Strong validation strategy  
@@ -45,8 +45,8 @@ For each boundary:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 The client is always untrusted.
 
-👉 Always.
+Always.

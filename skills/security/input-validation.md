@@ -1,12 +1,12 @@
-# 🧪 Input Validation Audit
+# Input Validation Audit
 
-## 🎯 Objective
+## Objective
 
 Ensure all inputs are validated, sanitized, and safe before processing.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze all user inputs in this system.
 
@@ -24,7 +24,7 @@ For each input:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Frontend / Mobile
 - No client-side validation
@@ -37,13 +37,13 @@ For each input:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Strong validation layer  
 - Reduced injection risks  
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 All attacks start with input.

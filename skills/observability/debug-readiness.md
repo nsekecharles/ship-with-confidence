@@ -1,12 +1,12 @@
-# 🧪 Debug Readiness Check
+# Debug Readiness Check
 
-## 🎯 Objective
+## Objective
 
 Evaluate whether the system can be debugged effectively in production conditions.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this system from a debugging perspective.
 
@@ -27,7 +27,7 @@ Then:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Silent failures (errors swallowed or ignored)  
 - Missing error handling  
@@ -37,7 +37,7 @@ Then:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear understanding of debugging gaps  
 - Better error visibility  
@@ -45,23 +45,23 @@ Then:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 A system is not “done” when it works.
 
-👉 It’s done when you can **debug it under pressure**
+It’s done when you can **debug it under pressure**
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 If it breaks at 2am:
 
-👉 Can you understand what happened in minutes, not hours?
+Can you understand what happened in minutes, not hours?
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 Simulate a production bug:
 
