@@ -1,17 +1,17 @@
-# 🧠 AI Engineering Validation Skills
+# AI Engineering Validation Skills
 
 **A collection of prompt-based engineering validation skills to run before every push.
 Built for developers using AI to ship fast without losing control over security, scalability, and reliability.**
 
 ---
 
-## 🚀 Why this exists
+## Why this exists
 
 AI can generate code faster than ever.
 
 But speed creates a new problem:
 
-👉 You can ship things you don’t fully understand.
+You can ship things you don’t fully understand.
 
 This repository is not about writing code.
 
@@ -19,7 +19,7 @@ It’s about **validating what you are about to ship**.
 
 ---
 
-## ⚠️ The problem
+## The problem
 
 When using AI to code, most people validate like this:
 
@@ -38,11 +38,11 @@ You need to think about:
 * Failure scenarios
 * Abuse patterns
 
-👉 Things that don’t break… until they do.
+Things that don’t break… until they do.
 
 ---
 
-## 🧩 What are “Skills”?
+## What are “Skills”?
 
 A skill is a **reusable validation unit**:
 
@@ -54,11 +54,11 @@ Each skill helps you **challenge your code before pushing it**.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ---
 
-### 🔐 Security
+### Security
 
 ```
 skills/security/
@@ -69,7 +69,7 @@ skills/security/
 
 ---
 
-### ⚡ Performance
+### Performance
 
 ```
 skills/performance/
@@ -79,7 +79,7 @@ skills/performance/
 
 ---
 
-### 🧱 Architecture
+### Architecture
 
 ```
 skills/architecture/
@@ -89,7 +89,7 @@ skills/architecture/
 
 ---
 
-### 🛡️ Reliability
+### Reliability
 
 ```
 skills/reliability/
@@ -99,7 +99,7 @@ skills/reliability/
 
 ---
 
-### 📊 Observability
+### Observability
 
 ```
 skills/observability/
@@ -109,24 +109,24 @@ skills/observability/
 
 ---
 
-### 🧠 Each skill includes
+### Each skill includes
 
-* 🎯 Objective
-* 🧠 Prompt to run
-* ⚠️ What to look for
-* ✅ Expected outcome
-
----
-
-> 💡 Each skill is designed to be executed on a code diff or feature before pushing.
+* Objective
+* Prompt to run
+* What to look for
+* Expected outcome
 
 ---
 
-## 🛠️ How to use
+> Each skill is designed to be executed on a code diff or feature before pushing.
+
+---
+
+## How to use
 
 These skills are designed to be used with **AI coding agents** (recommended), not just basic chat interfaces.
 
-👉 Best used with tools like:
+Best used with tools like:
 
 - Claude (with large context / files)
 
@@ -136,7 +136,7 @@ These skills are designed to be used with **AI coding agents** (recommended), no
 
 ---
 
-## 🔁 Recommended workflow
+## Recommended workflow
 
 Before every push, at minimum:
 
@@ -145,11 +145,11 @@ Before every push, at minimum:
 * Run an **API exposure skill**
 * Run a **Performance reasoning skill**
 
-👉 Think of this as your **pre-push engineering checklist**
+Think of this as your **pre-push engineering checklist**
 
 ---
 
-## 🔥 Core skills included
+## Core skills included
 
 * Trust Boundary Detector
 * Attack Simulation
@@ -164,13 +164,13 @@ Before every push, at minimum:
 
 ---
 
-## 🧠 Philosophy
+## Philosophy
 
 AI is not the problem.
 
 Blind usage is.
 
-👉 These skills are here to shift you from:
+These skills are here to shift you from:
 
 * “AI generated it, so it’s probably fine”
 
@@ -184,11 +184,11 @@ To:
 
 You are not asking the AI to write code.
 
-👉 You are asking it to **challenge your system**.
+You are asking it to **challenge your system**.
 
 ---
 
-## 💡 Important
+## Important
 
 These prompts are not magic.
 
@@ -200,11 +200,11 @@ They won’t replace:
 
 But they will:
 
-👉 expose what you’re not seeing yet
+expose what you’re not seeing yet
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to:
 
@@ -214,7 +214,7 @@ Feel free to:
 
 ---
 
-## 📌 Final note
+## Final note
 
 **I don’t ask AI to write code for me.
 I ask it to challenge what I build.**

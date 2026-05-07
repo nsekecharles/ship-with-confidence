@@ -1,12 +1,12 @@
-# 🔁 Abuse & Rate Limiting Check
+# Abuse & Rate Limiting Check
 
-## 🎯 Objective
+## Objective
 
 Prevent abuse of the system through uncontrolled usage.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze how this system could be abused.
 
@@ -24,7 +24,7 @@ Propose protections:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Backend
 - No request limits
@@ -36,15 +36,15 @@ Propose protections:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Controlled API usage  
 - Protection against abuse  
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Not all attacks are sophisticated.
 
-👉 Some are just repeated requests.
+Some are just repeated requests.

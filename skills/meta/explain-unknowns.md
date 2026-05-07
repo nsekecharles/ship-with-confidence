@@ -1,12 +1,12 @@
-# 🧠 Explain Unknowns
+# Explain Unknowns
 
-## 🎯 Objective
+## Objective
 
 Identify what you don’t fully understand in the code and expose hidden assumptions, implicit logic, and potential blind spots.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this code as if I did not fully understand everything in it.
 
@@ -25,7 +25,7 @@ For each point:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Magic values or unexplained constants  
 - Complex logic without clear naming  
@@ -35,7 +35,7 @@ For each point:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Better understanding of the code  
 - Identification of hidden risks  
@@ -44,23 +44,23 @@ For each point:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 The biggest risk when using AI is not bad code.
 
-👉 It’s **code you don’t understand but still ship**
+It’s **code you don’t understand but still ship**
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 If you cannot explain it:
 
-👉 you don’t control it
+you don’t control it
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 Explain this code as if I had to teach it to another developer tomorrow.
 

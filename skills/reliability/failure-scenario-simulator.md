@@ -1,12 +1,12 @@
-# 🧪 Failure Scenario Simulator
+# Failure Scenario Simulator
 
-## 🎯 Objective
+## Objective
 
 Evaluate how the system behaves when things go wrong and ensure it fails gracefully.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Simulate failure scenarios for this system.
 
@@ -26,7 +26,7 @@ For each scenario:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - No error handling or fallback strategy  
 - System crashes instead of degrading gracefully  
@@ -36,7 +36,7 @@ For each scenario:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Better failure resilience  
 - Graceful degradation instead of crashes  
@@ -44,22 +44,22 @@ For each scenario:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Failures are not exceptions.
 
-👉 They are part of normal system behavior.
+They are part of normal system behavior.
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 Don’t ask “if it fails”.
 
-👉 Ask “how it fails”.
+Ask “how it fails”.
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 If one dependency fails, how can the system continue operating in a degraded mode?

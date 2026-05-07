@@ -1,12 +1,12 @@
-# 🧨 Edge Case Hunter
+# Edge Case Hunter
 
-## 🎯 Objective
+## Objective
 
 Identify edge cases and unexpected inputs that could break the system or produce incorrect behavior.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this code and identify all potential edge cases.
 
@@ -27,7 +27,7 @@ For each edge case:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Missing input validation  
 - Assumptions about data presence  
@@ -37,7 +37,7 @@ For each edge case:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear list of edge cases  
 - Improved robustness  
@@ -46,20 +46,20 @@ For each edge case:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Users don’t break your system on purpose.
 
-👉 They break it by using it in ways you didn’t expect.
+They break it by using it in ways you didn’t expect.
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 Your system is only as strong as its weakest edge case.
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 What is the smallest unexpected input that could break this system?

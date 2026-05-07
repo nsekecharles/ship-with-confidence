@@ -1,12 +1,12 @@
-# 🧱 Coupling Detector
+# Coupling Detector
 
-## 🎯 Objective
+## Objective
 
 Identify strong coupling, hidden dependencies, and structural issues that will make the system hard to evolve.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this code from an architectural perspective.
 
@@ -26,7 +26,7 @@ For each issue:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Functions doing too many things  
 - Direct dependencies between unrelated modules  
@@ -36,7 +36,7 @@ For each issue:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear identification of coupling hotspots  
 - Suggestions to split responsibilities  
@@ -45,17 +45,17 @@ For each issue:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 AI-generated code often “works” but creates hidden coupling.
 
-👉 It becomes harder to:
+It becomes harder to:
 - add features
 - fix bugs
 - onboard new developers
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 If you had to scale this codebase with a team of 5 developers, what would break first in the architecture?

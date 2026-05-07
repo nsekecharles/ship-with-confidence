@@ -1,12 +1,12 @@
-# 🔑 Secret Exposure Check
+# Secret Exposure Check
 
-## 🎯 Objective
+## Objective
 
 Prevent exposure of sensitive information such as API keys, tokens, and credentials.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this codebase and identify:
 
@@ -16,7 +16,7 @@ Analyze this codebase and identify:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Frontend / Mobile
 - API keys in code
@@ -30,13 +30,13 @@ Analyze this codebase and identify:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Secure secret management  
 - No exposed credentials  
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Once exposed, a secret is compromised forever.

@@ -1,12 +1,12 @@
-# ⚡ Load Reasoning
+# Load Reasoning
 
-## 🎯 Objective
+## Objective
 
 Evaluate how the system behaves under increasing load and identify potential bottlenecks before they happen in production.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze this system and simulate its behavior under load.
 
@@ -32,7 +32,7 @@ Focus on:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Too many database queries per request  
 - Blocking operations (synchronous calls)  
@@ -42,7 +42,7 @@ Focus on:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Clear identification of bottlenecks  
 - Understanding of system limits  
@@ -50,22 +50,22 @@ Focus on:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Your system won’t break when it stops working.
 
-👉 It will break when it becomes slow.
+It will break when it becomes slow.
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 Performance issues are often invisible at low scale.
 
-👉 They appear only when it’s too late.
+They appear only when it’s too late.
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 If I multiply traffic by 10 overnight, what breaks first and why?

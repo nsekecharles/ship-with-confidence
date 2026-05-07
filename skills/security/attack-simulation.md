@@ -1,12 +1,12 @@
-# 🕵️ Attack Simulation
+# Attack Simulation
 
-## 🎯 Objective
+## Objective
 
 Think like an attacker to identify vulnerabilities before they are exploited.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 You are an attacker.
 
@@ -22,7 +22,7 @@ Rank vulnerabilities by severity and propose fixes.
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Frontend
 - XSS possibilities
@@ -39,7 +39,7 @@ Rank vulnerabilities by severity and propose fixes.
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Identified attack scenarios  
 - Prioritized vulnerabilities  
@@ -47,8 +47,8 @@ Rank vulnerabilities by severity and propose fixes.
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Security is not about defense.
 
-👉 It’s about anticipating attacks.
+It’s about anticipating attacks.

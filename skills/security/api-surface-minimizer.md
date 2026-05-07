@@ -1,12 +1,12 @@
-# 📡 API Surface Minimizer
+# API Surface Minimizer
 
-## 🎯 Objective
+## Objective
 
 Reduce unnecessary data exposure and minimize attack surface.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze all API responses.
 
@@ -18,7 +18,7 @@ For each endpoint:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Backend
 - Returning full objects instead of required fields
@@ -31,13 +31,13 @@ For each endpoint:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Minimal and secure API responses  
 - Reduced data exposure  
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 The more you expose, the more you risk.

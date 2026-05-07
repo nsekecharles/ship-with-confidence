@@ -1,12 +1,12 @@
-# 🗄️ Query Analysis
+# Query Analysis
 
-## 🎯 Objective
+## Objective
 
 Identify inefficient database access patterns and optimize data retrieval strategies.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze the database queries and data access patterns in this code.
 
@@ -26,7 +26,7 @@ For each issue:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 - Queries inside loops  
 - Multiple queries where one would suffice  
@@ -36,7 +36,7 @@ For each issue:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Optimized database interactions  
 - Reduced load on the database  
@@ -44,22 +44,22 @@ For each issue:
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 The database is often the first bottleneck.
 
-👉 And the hardest to fix once in production.
+And the hardest to fix once in production.
 
 ---
 
-## 🧠 Key mindset
+## Key mindset
 
 Every query has a cost.
 
-👉 At scale, small inefficiencies become major issues.
+At scale, small inefficiencies become major issues.
 
 ---
 
-## 🔥 Bonus prompt
+## Bonus prompt
 
 Rewrite these queries as if the system had to support 10x more data and traffic.

@@ -1,12 +1,12 @@
-# 🔓 Auth Scope Breaker
+# Auth Scope Breaker
 
-## 🎯 Objective
+## Objective
 
 Ensure users can only access what they are allowed to access.
 
 ---
 
-## 🧠 Prompt to run
+## Prompt to run
 
 Analyze all endpoints and access logic.
 
@@ -24,7 +24,7 @@ Simulate scenarios where a user tries to access:
 
 ---
 
-## ⚠️ What to look for
+## What to look for
 
 ### Backend
 - ID-based access without ownership checks
@@ -37,15 +37,15 @@ Simulate scenarios where a user tries to access:
 
 ---
 
-## ✅ Expected outcome
+## Expected outcome
 
 - Strict access control  
 - No unauthorized data exposure  
 
 ---
 
-## 💡 Why it matters
+## Why it matters
 
 Most breaches are not hacks.
 
-👉 They are broken access controls.
+They are broken access controls.
