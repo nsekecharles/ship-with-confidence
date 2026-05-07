@@ -1,16 +1,43 @@
-# API Surface Minimizer
+# 📡 API Surface Minimizer
 
-Reduce the exposed attack surface and accidental public APIs.
+## 🎯 Objective
 
-## What to check
-- New endpoints, ports, ingress rules
-- Unnecessary methods/fields in APIs
-- Admin/debug endpoints exposed in prod
-- Over-permissive CORS
+Reduce unnecessary data exposure and minimize attack surface.
 
-## Prompts
-- "List all new externally reachable surfaces introduced by this change."
-- "Which endpoints can be made internal-only or removed?"
+---
 
-## Output
-- Surface inventory + justification for each exposure
+## 🧠 Prompt to run
+
+Analyze all API responses.
+
+For each endpoint:
+
+1. List all returned fields
+2. Identify sensitive or unnecessary data
+3. Propose a minimal response structure
+
+---
+
+## ⚠️ What to look for
+
+### Backend
+- Returning full objects instead of required fields
+- Exposing internal IDs or metadata
+- Sending sensitive information (emails, tokens)
+
+### Frontend / Mobile
+- Using more data than necessary
+- Storing sensitive data locally
+
+---
+
+## ✅ Expected outcome
+
+- Minimal and secure API responses  
+- Reduced data exposure  
+
+---
+
+## 💡 Why it matters
+
+The more you expose, the more you risk.
